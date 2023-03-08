@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im5hZmlzXzgxMSIsImlkIjoiNjNmODMzYzNkNzk5ODEwZDgxN2VhMGFkIiwiaWF0IjoxNjc3NDY1OTEzLCJleHAiOjE2Nzc0Njk1MTN9.SsUBcZjKAkxZnFJwo6iUKzqG_LBIhDM1tUnROKI_TjU
+Content-Type: application/json
+
+{
+     "title":"Posting blogs",
+    "author":"Nafis",
+    "url":"www.blogs.com",
+    "likes":"10"   
+}
+
